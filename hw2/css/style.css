@@ -2,32 +2,9 @@
     height:75px;
     background-color: rgb(235, 235, 235);
     margin: auto;
-    width:90%; /*1920px is my screen width, so this is 1728px(90%)*/
-}
-/*
-.col{
-    column-count: 3;
-    float: left;
-    padding: 10px;
-    column-rule-style:double;
-    column-gap: 2px;
-    width: 90%;
-    height: 300px;
+    width:90%;
 }
 
-.col>div{
-    margin: auto;
-    text-align: center;
-    list-style:none ;
-}
-.col.side {
-    width: 40%;
-  }
-.col.middle{
-    width: 20%;
-}
-*/
-/* Create three unequal columns that floats next to each other */
 .centered{
     vertical-align: middle;
     text-align: center;
@@ -37,37 +14,25 @@
 }
 .column {
     float:left;
-    height: 80px; /* Should be removed. Only for demonstration */
+    height: 80px;
     text-align: center;
     margin-top: 3px;
   }
-  
-  /* Left and right column */
+
   .column.left {
     width: 37%;
   }
   .column.right {
     width: 40.67%;
   }
-  /* Middle column */
+
   .column.middle {
     width: 22%;
     margin-left: 2px;
     margin-right: 2px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Style the footer */
-  .footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
+
+
   
  
